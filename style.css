@@ -1,0 +1,222 @@
+.photo{
+    width: 300px;
+    height: 300px;
+
+}
+.div{
+    display: flex;
+    display: inline;
+}
+.red{
+    background-color: red;
+    display: none;
+}
+
+.product{
+    margin-top: 100px;
+    
+    
+}
+
+.head{
+    margin-left: 40%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.logo{
+    width: 10%;
+    height: 60px;
+    margin-left: 45%;
+    
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+
+.text{
+    font-size: 24px;
+}
+
+.moreText{
+display: none;
+}
+
+.append{
+
+    background-color: rgb(149, 170, 197);
+    color: rgb(53,49,49);
+    border: none;
+    outline: none;
+    
+    cursor: pointer;
+}
+
+.text.show .moreText{
+    display: inline;
+}
+
+.text.show .dots{
+    display: none;
+}
+
+
+
+.text1{
+    font-size: 24px;
+}
+
+.moreText1{
+display: none;
+}
+
+.append1{
+
+    background-color: rgb(149, 170, 197);
+    color: rgb(53,49,49);
+    border: none;
+    outline: none;
+    
+    cursor: pointer;
+}
+
+.text1.show1 .moreText1 {
+    display: inline;
+}
+
+.text1.show1 .dots1{
+    display: none;
+}
+
+
+
+.text2{
+    font-size: 24px;
+}
+
+.moreText2{
+display: none;
+}
+
+.append2{
+
+    background-color: rgb(149, 170, 197);
+    color: rgb(53,49,49);
+    border: none;
+    outline: none;
+    
+    cursor: pointer;
+}
+
+.text2.show2 .moreText2 {
+    display: inline;
+}
+
+.text2.show2 .dots2{
+    display: none;
+}
+
+
+
+.text3{
+    font-size: 24px;
+}
+
+.moreText3{
+display: none;
+}
+
+.append3{
+
+    background-color: rgb(149, 170, 197);
+    color: rgb(53,49,49);
+    border: none;
+    outline: none;
+    
+    cursor: pointer;
+}
+
+.text3.show3 .moreText3{
+    display: inline;
+}
+
+
+.text3.show3 .dots3{
+    display: none;
+}
+
+.text4{
+    font-size: 24px;
+}
+
+.moreText4{
+    display: none;
+}
+
+.append4{
+    background-color: rgb(149, 170, 197);
+    color: rgb(53,49,49);
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.text4.show4 .moreText4{
+    display: inline;
+}
+
+.text4.text4.show4 .dots4{
+    display: none;
+}
+
+
+.text5{
+    font-size: 24px;
+}
+
+.moreText5{
+    display: none;
+}
+
+.append5{
+    background-color: rgb(149, 170, 197);
+    color: rgb(53,49,49);
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.text5.show5 .moreText5{
+    display: inline;
+}
+
+.text5.text5.show5 .dots5{
+    display: none;
+}
+
+
+.text6{
+    font-size: 24px;
+}
+
+.moreText6{
+    display: none;
+}
+
+.append6{
+    background-color: rgb(149, 170, 197);
+    color: rgb(53,49,49);
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.text6.show6 .moreText6{
+    display: inline;
+}
+
+.text6.text6.show6 .dots6{
+    display: none;
+}
