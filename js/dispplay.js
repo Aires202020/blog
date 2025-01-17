@@ -1,25 +1,28 @@
 import { blogs } from "./blog.js";
 let html = "";
-const display = document.querySelector("div");
+const display = document.querySelector("section");
 //const ulList= document.querySelector("ul")
-//const postInputs= document.querySelectorAll(".product input")
-
-
+//const postInputs= document.querySelectorAll(".product input"get
+//const comment = querySelector(".comment")
 
 function view() {
   blogs.forEach((blog) => {
     console.log(blog.author)
     html+=`
-  <div class="product">
-  <h1>${blog.blogTitle}</h1>
-  <img class="photo" src="${blog.blogImage}">
-  <p>${blog.blogStory}</p>
-  <p>Author:${blog.author}</p>
-  <p>${blog.time}</p>
-  <p>${blog.date}</p>
-  <i class="fa-solid fa-heart"></i> 
- </div> `
- 
+    <div class="product">
+      <div class = "Con"><img class="photo" src="${blog.blogImage}"></div>
+      <div class="dateCon">
+        <p class="time">${blog.time}</p>
+        <p class="time">${blog.date}</p>
+      </div>
+      <h1 class="title">${blog.blogTitle}</h1>
+      <p class="story">${blog.blogStory}</p>
+      <p class="Author">Author : ${blog.author}</p>
+      
+    <script> ${blog.commen}</script>
+      <i class="fa-solid fa-heart"></i> 
+  </div>
+`
   });
 
   display.innerHTML = html
